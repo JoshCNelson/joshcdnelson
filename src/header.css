@@ -1,0 +1,28 @@
+body header {
+  display: flex;
+  flex-direction: row;
+  height: 75px;
+  background-color: yellow;
+  align-items: center;
+  padding-left: 20px;
+}
+
+header h1 {
+  font-size: 24px;
+  margin-right: 20px;
+}
+
+header ul {
+  width: 120px;
+  justify-content: space-evenly;
+  display: flex;
+}
+
+header ul li {
+  font-size: 18px;
+  list-style-type: none;
+}
+
+header ul li:hover {
+  cursor: pointer;
+}
