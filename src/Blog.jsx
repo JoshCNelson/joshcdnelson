@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 
-import FirstBlog from './Blogs/FirstBlog';
+import FirstBlog from './Blogs/FirstBlog/FirstBlog';
 
 import './Blog.css';
 

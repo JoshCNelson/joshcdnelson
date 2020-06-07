@@ -1,4 +1,4 @@
-.blog {
+.project {
   background-color: lightgray;
   width: 100%;
   height: 100%;
@@ -8,12 +8,12 @@
   overflow: auto;
 }
 
-.blog h1 {
+.project h1 {
   font-size: 40px;
   margin-bottom: 20px;
 }
 
-.blog p {
+.project p {
   font-size: 21px;
   text-align: left;
   line-height: 32px;

@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import Header from './Header';
 import Blogs from './Blogs';
+import Projects from './Projects';
 import './reset.css';
 import './App.css';
 
@@ -33,10 +34,6 @@ function App() {
 
 function Home() {
   return <h2>Home</h2>;
-}
-
-function Projects() {
-  return <h2>Projects</h2>;
 }
 
 export default App;
