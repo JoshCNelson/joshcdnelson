@@ -1,6 +1,21 @@
 .blog {
-  background-color: blue;
+  background-color: lightgray;
   width: 100%;
   height: 100%;
   display: flex;
+  padding: 20px 100px 0 100px;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.blog h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.blog p {
+  font-size: 21px;
+  text-align: left;
+  line-height: 32px;
+  margin-bottom: 30px;
 }

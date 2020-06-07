@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import Header from './Header';
-import Blog from './Blog';
+import Blogs from './Blogs';
 import './reset.css';
 import './App.css';
 
@@ -20,7 +20,7 @@ function App() {
             <Projects />
           </Route>
           <Route path="/blog">
-            <Blog />
+            <Blogs />
           </Route>
           <Route path="/">
             <Home />
