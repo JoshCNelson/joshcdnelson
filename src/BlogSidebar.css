@@ -8,6 +8,20 @@
 .blog-sidebar h1 {
   font-size: 35px;
   font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.blog-sidebar li {
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+
+.blog-sidebar li:first-of-type {
+  border-top: 1px solid black;
+}
+
+.blog-sidebar li:hover {
+  background-color: darkgrey;
 }
 
 .blog-sidebar a {

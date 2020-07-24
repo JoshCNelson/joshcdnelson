@@ -12,8 +12,7 @@ const ProjectSidebar = ({ url }) => {
         <ul>
           <li><Link to={`${url}/plinko`}>PlinkoJS</Link></li>
           <li><Link to={`${url}/ticketing`}>Ticketing</Link></li>
-          <li><Link to={`${url}/first-project`}>First Project</Link></li>
-          <li><Link to={`${url}/third-project`}>Third Project</Link></li>
+          <li><Link to={`${url}/reaction`}>Reaction</Link></li>
         </ul>
       </div>
     </div>

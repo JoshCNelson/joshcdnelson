@@ -4,6 +4,7 @@ const Plinko = () => {
   return (
     <>
       <h1>PlinkoJS</h1>
+      <p>some text goes here</p>
       <figure>
         <img src="https://media.giphy.com/media/1rRkqtfEgsK57mgN52/giphy.gif" alt="Plinko Gameplay" />
         <figcaption>Actual recorded gameplay</figcaption>

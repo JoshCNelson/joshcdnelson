@@ -1,0 +1,103 @@
+.intro {
+  display: flex;
+  background-color: lightblue;
+}
+
+.me-wrapper {
+  height: 500px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.me {
+  max-width: 350px;
+  max-height: 350px;
+}
+
+.greeting {
+  /* padding-top: 80px; */
+  /* padding-left: 10px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 2;
+  text-align: left;
+  font-size: 2rem;
+}
+
+.greeting p {
+  margin-bottom: 20px;
+}
+
+.greeting a {
+  text-decoration: none;
+}
+
+.plinko {
+  display: flex;
+  flex-direction: row;
+  background-color: lightgoldenrodyellow;
+}
+
+.description {
+  padding-left: 100px;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  flex-grow: 2;
+}
+
+.description p {
+  margin-bottom: 20px;
+}
+
+.gameplay-wrapper {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.gameplay {
+  max-width: 350px;
+  max-height: 350px;
+}
+
+.case-study {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+}
+
+.case-study:hover {
+  cursor: pointer;
+  color: white;
+  background-color: blue;
+}
+
+.miscellaneous {
+  display: flex;
+  flex-direction: row;
+  background-color: grey;
+  height: 500px;
+}
+
+.other-projects,
+.technology {
+  flex-grow: 2;
+}
+
+.other-projects {
+  background-color: lightslategrey;
+}
+
+.technology {
+  background-color: lightsalmon;
+}

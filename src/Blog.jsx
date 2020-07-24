@@ -9,7 +9,7 @@ const Blog = () => {
   let { blogId } = useParams();
 
   const renderedBlog = () => {
-    if (blogId === 'first-blog') {
+    if (blogId === 'why-i-started-a-blog') {
       return <FirstBlog />
     }
 

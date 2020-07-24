@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import SocialIcons from './SocialIcons'
 import './Header.css';
 
 
@@ -8,7 +9,7 @@ const Header = () => {
     <header>
       <div className="navigation">
         <h1><Link to="/">Josh Nelson</Link></h1>
-        <nav>
+        {/* <nav>
           <ul>
             <li>
               <Link to="/projects">Projects</Link>
@@ -17,12 +18,10 @@ const Header = () => {
               <Link to="blog">Blog</Link>
             </li>
           </ul>
-        </nav>
+        </nav> */}
       </div>
       <div className="social">
-        <ul>
-          <li>Email Josh</li>
-        </ul>
+        <SocialIcons />
       </div>
     </header>
   );

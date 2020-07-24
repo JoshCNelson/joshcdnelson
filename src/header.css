@@ -12,6 +12,8 @@ body header {
 .social {
   display: flex;
   align-items: center;
+  height: 100%;
+  margin: 0 10px;
 }
 
 .navigation a,
@@ -27,9 +29,11 @@ body header {
 
 .navigation ul,
 .social ul {
-  width: 120px;
+  width: 300px;
   justify-content: space-evenly;
   display: flex;
+  height: 100%;
+  align-items: center;
 }
 
 .navigation ul li,
@@ -41,4 +45,5 @@ body header {
 .navigation ul li:hover,
 .social ul li:hover {
   cursor: pointer;
+  color: white;
 }

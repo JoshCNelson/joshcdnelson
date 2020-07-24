@@ -1,4 +1,5 @@
 import React from 'react';
+import Home from './Home';
 import logo from './logo.svg';
 import Header from './Header';
 import Blogs from './Blogs';
@@ -30,10 +31,6 @@ function App() {
       </div>
     </div>
   );
-}
-
-function Home() {
-  return <h2>Home</h2>;
 }
 
 export default App;

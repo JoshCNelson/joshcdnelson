@@ -6,7 +6,7 @@ const FirstBlog = () => {
 
   return (
     <>
-      <h1>Why I Started My Own Blog</h1>
+      <h1>Why I Started A Blog</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus blandit, mi vel eleifend sollicitudin, odio justo congue sapien, sit amet luctus orci neque nec nunc. Morbi quis euismod leo. Quisque eleifend diam et odio sagittis pretium. Nunc eget malesuada eros. Vestibulum dignissim magna eget eleifend blandit. Phasellus suscipit ut orci a mattis. Duis eget aliquet eros. Maecenas tristique id urna sit amet bibendum. Maecenas eu ipsum nec enim semper malesuada ac non odio. Nullam sed lobortis quam. Phasellus fermentum libero non orci iaculis, non interdum justo vestibulum. Donec quis tortor risus. Cras a dui vel nibh molestie consequat.
           Sed ut urna aliquet, iaculis felis et, hendrerit turpis. Maecenas posuere eleifend diam, non aliquam mi tincidunt at. Proin eu sollicitudin lectus. Praesent aliquam velit et metus pharetra molestie sit amet condimentum lacus. Praesent tortor ex, scelerisque sed aliquam vel, elementum sed dui. Phasellus nisl tortor, consequat vitae arcu a, bibendum pellentesque nunc. Fusce ac aliquet nunc. Duis semper nulla eu massa dictum, non sagittis tellus ullamcorper. In sed sem et nibh fringilla porta. Aenean at lectus vulputate, maximus dui a, varius massa. Fusce dictum, nunc sed suscipit laoreet, sapien ex scelerisque sapien, vel efficitur massa urna eget ligula. Sed ut mollis ante. Sed auctor, ligula sed lacinia dapibus, odio urna porta lacus, eu cursus ligula erat in turpis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent sed tincidunt nisl. Nullam pharetra ligula eu lectus congue euismod dapibus non felis.
