@@ -11,9 +11,9 @@ const Home = () => {
           <img className="me" src="./josh.jpg" />
         </div>
         <div className="greeting">
-          <p>Hi there!</p>
+          <p>Hello there!</p>
           <p>My name is Josh Nelson</p>
-          <p>I am a Full Stack Engineer and co-creator of real-time physics muliplayer <a href="http://plinkojs.com/about">PlinkoJS</a></p>
+          <p>I am a Full Stack Engineer and co-creator of <a href="http://plinkojs.com/about">PlinkoJS</a>, a real-time, physics-based browser multiplayer</p>
         </div>
       </div>
       <div className="plinko">

@@ -46,5 +46,19 @@ body header {
 .navigation ul li:hover,
 .social ul li:hover {
   cursor: pointer;
+}
+
+.social li a:hover {
   color: white;
+}
+
+@media (max-width: 768px) {
+  body header {
+    padding: 0px;
+    justify-content: center;
+  }
+
+  .navigation h1 {
+    display: none;
+  }
 }
