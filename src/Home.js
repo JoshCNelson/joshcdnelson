@@ -19,8 +19,12 @@ const Home = () => {
       <div className="plinko">
         <div className="description">
           <p>PlinkoJS</p>
-          <p>PlinkoJS is a something something this is a long paragraph and needs to end</p>
-          <p>PlinkoJS is a second paragrtaph on it and goes over the other stuff. Should I link the slides.</p>
+          <p>
+            PlinkoJS is a real-time, physics-based, multiplayer browser game.
+          </p>
+          <p>
+            PlinkoJS is a second paragrtaph on it and goes over the other stuff. Should I link the slides.
+          </p>
           <p><a className="case-study" href="www.plinkojs.com/about">Read Case Study</a></p>
         </div>
         <div className="gameplay-wrapper">
