@@ -117,6 +117,26 @@
 .technology {
   flex-grow: 2;
   background-color: #f4a261;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.other-projects p {
+  font-size: 24px;
+}
+
+.other-projects span {
+  font-weight: bold;
+}
+
+.other-projects li {
+  padding-bottom: 25px;
+}
+
+.miscellaneous li {
+  list-style: none;
 }
 
 @media (max-width: 768px) {
@@ -184,12 +204,59 @@
   .me-wrapper,
   .gameplay-wrapper {
     height: 225px;
-    width: 2250px;
+    width: 225px;
   }
 
   .me,
   .gameplay {
     max-width: 200px;
     max-height: 200px;
+  }
+}
+
+
+/* This is temp, fix to be correct for mobile */
+@media (max-width: 500px) {
+
+  .intro {
+    padding-top: 5px;
+  }
+
+  .intro p:first-child,
+  .plinko p:first-child {
+    font-size: 20px;
+  }
+
+  .intro p,
+  .plinko p {
+    font-size: 16px;
+  }
+
+  .greeting,
+  .description {
+    padding: 5px 100px 0 100px;
+  }
+
+  .me-wrapper,
+  .gameplay-wrapper {
+    height: 150px;
+    width: 150px;
+  }
+
+  .me, .gameplay {
+    max-height: 100%;
+    max-width: 100%;
+  }
+
+  .plinko a {
+    font-size: 1rem;
+  }
+
+  .plinko {
+    padding-top: 20px;
+  }
+
+  .gameplay {
+    margin-bottom: 10px;
   }
 }

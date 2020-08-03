@@ -1,12 +1,11 @@
 import React from 'react';
-
+import { FaGithub } from 'react-icons/fa'
 import './home.css'
 
 const Home = () => {
   return (
     <>
       <div className="intro">
-        {/* <img src="https://via.placeholder.com/500" /> */}
         <div className="me-wrapper">
           <img className="me" src="./josh.jpg" />
         </div>
@@ -36,8 +35,15 @@ const Home = () => {
       <div className="miscellaneous">
         <div className="other-projects">
           <ul>
-            <li>micro-tix: a microservices app for buying tickets</li>
-            <li>Reaction: a trello-clone built in Rails and React</li>
+            <li>
+              <p><span>Micro-Tix</span>: a microservices app for buying tickets <a href="#"><FaGithub /></a></p>
+            </li>
+            <li>
+              <p><span>Reaction</span>: a trello-clone built in Rails and React <a href="#"><FaGithub /></a></p>
+            </li>
+            <li>
+              <p><span>Reaction</span>: a trello-clone built in Rails and React <a href="#"><FaGithub /></a></p>
+            </li>
           </ul>
         </div>
         <div className="technology">

@@ -18,12 +18,12 @@ function App() {
       <Header />
       <div className="content">
         <Switch>
-          <Route path="/projects">
+          {/* <Route path="/projects">
             <Projects />
           </Route>
           <Route path="/blog">
             <Blogs />
-          </Route>
+          </Route> */}
           <Route path="/">
             <Home />
           </Route>
