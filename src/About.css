@@ -1,0 +1,53 @@
+.content {
+  padding-top: 32px;
+  margin: auto;
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+}
+
+.about-me {
+  width: 450px;
+  margin-right: 16px;
+}
+
+.about-me h3,
+.contact h3 {
+  font: bold 24px "Open Sans";
+  padding: 24px 0 16px 0;
+}
+
+.about-me p {
+  font: normal 16px "Merriweather";
+  line-height: 28px;
+  color: #2e2e2e;
+}
+
+.social li {
+  font-size: 14px;
+  list-style: none;
+  margin-bottom: 5px;
+}
+
+.social span {
+  padding-left: 10px;
+  vertical-align: middle;
+  font: normal 14px "Open Sans";
+  color: #111;
+}
+
+.react-icons {
+  vertical-align: middle;
+}
+
+.social li a:hover,
+.social span:hover,
+.icon:hover {
+  color: #127199;
+}
+
+.about-me a {
+  color: #127199;
+  text-decoration: none;
+}

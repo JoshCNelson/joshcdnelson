@@ -70,6 +70,9 @@ const Home = () => {
           </ul>
         </div>
         <div className="technology">
+          <a href="./resume.pdf" target="_blank" />
+          {/* // <iframe src=”/</div>pdf/sample-3pp.pdf#page=2" width=”100%” height=”100%”> */}
+          {/* // </iframe> */}
           {/* <ul>
             <li>some tech</li>
             <li>some tech</li>
