@@ -1,11 +1,25 @@
-html, body {
+html,
+body {
   height: 100%;
 }
 
-#root, .App { height: 100% }
+#root,
+.App {
+  height: 100%;
+}
 
-.App h1,
-.App p,
-.case-study {
-  font-family: Verdana;
+.App {
+  background-color: #fff;
+}
+
+.App h1 {
+  font: bold 16px "Montserrat";
+}
+
+/* .App h1:hover { */
+/* background-color: #ebf3f7; */
+/* } */
+
+.App h1 a:hover {
+  color: #127199;
 }
